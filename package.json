@@ -1,0 +1,21 @@
+{
+  "name": "ask-vscode.nvim",
+  "version": "0.0.0-beta.1",
+  "description": "A vim plugin that talks to Visual Studio Code for code action suggestions",
+  "scripts": {
+    "build": "webpack",
+    "watch": "find src/*.ts | entr npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keiran O'Leary (kizza)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/msgpack-lite": "^0.1.6",
+    "@types/node": "^12.0.0",
+    "neovim": "^4.5.0",
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.4.5",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}

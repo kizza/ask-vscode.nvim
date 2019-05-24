@@ -1,0 +1,10 @@
+export const one = () => {};
+export const two = () => {};
+export const three = () => {};
+export const four = () => {};
+export const five = () => {};
+export const six = () => {};
+export const seven = () => {};
+export const eight = () => {};
+export const nine = () => {};
+export const ten = () => {};

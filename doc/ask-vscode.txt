@@ -1,0 +1,45 @@
+*ask-vscode.txt*                                        Code actions from vscode
+
+Version: 0.0.0-beta.1
+Author: Keiran O'Leary <hello at keiranoleary.com>
+
+TLDR                                                                *ask-vscode*
+==============================================================================
+
+The helpful "lightbulb" menu from Visual Studio Code, from within vim.
+
+
+OVERVIEW                                                   *ask-vscode-overview*
+==============================================================================
+
+By running :AskVisualStudioCode (or mapping it to a keybinding) vim will talk
+to a running instance of Visual Studio Code (enabled within
+the ask-vscode extension server) and return a list of code actions.
+
+Typically this includes
+ - Auto importing a required module
+ - Infering a type from it's usage
+ - Removing unrequired imports
+ - etc
+
+Selecting an item will execute that code action.
+
+WHY                                                             *ask-vscode-why*
+==============================================================================
+
+I :heart: vim.  I prefer it as my editor (and have lovingly set it up to work
+as I wish).  However, Visual Studio Code's code action items are super useful
+and _seem to be_ always ahead of the vim curve.
+
+I wanted to use them within vim.. I wanted to treat Visual Studio Code almost
+as a language server protocol.
+
+
+LICENSE                                                     *ask-vscode-license*
+==============================================================================
+
+MIT
+
+
+==============================================================================
+vim:tw=78:sw=2:ts=2:ft=help:norl:nowrap:
